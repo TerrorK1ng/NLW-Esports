@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando garaio</title>
+    <title>Document</title>
     <style>
-        div {
+        .box {
             width: 200px;
-            margin: auto;
-            display: flex;
-            padding: .3em;
-            background-image: linear-gradient(90deg, #9572FC 0%, #e09eff 50.52%, #a904ea 100%);
+            height: 200px;
+            transition: ease-in-out .5s;
+            background-color: red;
             border-radius: 50%;
-            animation: TesteEfeitos 1s;
         }
-        img {
+        .box:hover {
+            width: 425px;
+            border-radius: 10px;
+        }
+        .info-box {
             width: 100%;
             border-radius: 50%;
         }
-        @keyframes TesteEfeitos {
-            0% {
-                transform: translateX(-5em)
-            }
-
-            100% {
-                transform: translateX(0)
-            }
+        .info-box img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .info-box img:hover {
+            width: 50%;
+            border-radius: 0%;
         }
     </style>
 </head>
 <body>
-    <div>
-        <img src="https://github.com/TerrorK1ng.png" alt="">
-        <audio autoplay>
-            <source src="assets/midia/Tu conhece a Paola - funk lo-fi __ brazilian lo-fi (128 kbps).mp3" type="audio/mpeg">
-            <source src="assets/midia/Tu-conhece-a-Paola-funk-lo-fi-__-brazilian-lo-fi-_128-kbps_.ogg" type="audio/ogg">
-        </audio>
+    <div class="box">
+        <div class="info-box">
+            <img src="https://github.com/TerrorK1ng.png" alt="">
+        </div>
     </div>
 </body>
 </html>
