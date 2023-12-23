@@ -12,4 +12,4 @@ Projeto desenvolvido durante o evendo Next Level Week (NLW) da Rocketseat, tendo
 
 ## Contato 📧
 
-Claudir.goes099@gmail.com
+Claudirsantos.goes1@gmail.com
